@@ -1,0 +1,75 @@
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#FFFFFF
+    #EBDCFF);
+}
+*{
+    font-family: "Open Sans", sans-serif;
+}
+ /* BAnner section  */
+.banner-containers{
+    /* border: 2px solid blueviolet; */
+
+}
+
+ .banner{
+    background-image: url(assests/hero-bg.png);
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(224, 83, 83); */
+    margin: 100px  auto 120px auto;
+    width: 87.5%;
+    border: 2px solid #b89fd8;
+    border-radius: 40px;
+    padding: 20px 10px;
+ }
+ .banner-contant{
+    /* text-align: center; */
+    /* background-color: red; */
+    width: 60%;
+
+ }
+ .banner-contant *{
+    margin-bottom: 10px;
+ }
+
+ h1{
+    /* background-color: red; */
+    width: 50%;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+ }
+ h1 span{
+    color: rgb(235, 18, 54);
+ } 
+ p{
+    font-weight: lighter;
+}
+
+.btn{
+    background-color: rgb(129, 4, 129);
+    color: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-shadow: 5px #EBDCFF;
+    font-weight: bolder;
+}
+.btnn{
+    background-color: white;
+    color: black;
+    padding: 16px 32px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-shadow:
+    5px #EBDCFF;
+    font-weight: bolder;
+}
+
+.banner-img{
+    width: 600px;
+    /* background-color: red; */
+}
