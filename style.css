@@ -1,75 +1,121 @@
-body{
-    min-height: 100vh;
-    background-image: linear-gradient(#FFFFFF
-    #EBDCFF);
-}
-*{
-    font-family: "Open Sans", sans-serif;
-}
- /* BAnner section  */
-.banner-containers{
-    /* border: 2px solid blueviolet; */
-
+/* General Styles */
+body {
+  min-height: 100vh;
+  background-color: #6608e0;
 }
 
- .banner{
-    background-image: url(assests/hero-bg.png);
-    display: flex;
-    /* justify-content: space-evenly; */
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: rgb(224, 83, 83); */
-    margin: 100px  auto 120px auto;
-    width: 87.5%;
-    border: 2px solid #b89fd8;
-    border-radius: 40px;
-    padding: 20px 10px;
- }
- .banner-contant{
-    /* text-align: center; */
-    /* background-color: red; */
-    width: 60%;
-
- }
- .banner-contant *{
-    margin-bottom: 10px;
- }
-
- h1{
-    /* background-color: red; */
-    width: 50%;
-    font-size: 45px;
-    font-weight: bold;
-    text-align: center;
- }
- h1 span{
-    color: rgb(235, 18, 54);
- } 
- p{
-    font-weight: lighter;
+.body-style {
+  background-color: #cec3db;
 }
 
-.btn{
-    background-color: rgb(129, 4, 129);
-    color: white;
-    padding: 16px 32px;
-    border-radius: 10px;
-    cursor: pointer;
-    text-shadow: 5px #EBDCFF;
-    font-weight: bolder;
-}
-.btnn{
-    background-color: white;
-    color: black;
-    padding: 16px 32px;
-    border-radius: 10px;
-    cursor: pointer;
-    text-shadow:
-    5px #EBDCFF;
-    font-weight: bolder;
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.banner-img{
-    width: 600px;
-    /* background-color: red; */
+/* Banner Section */
+.banner-containers {
+  
+}
+
+.banner {
+  background-image: url("assests/hero-bg.png");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 87.5%;
+  margin: 100px auto 120px auto;
+  padding: 20px 10px;
+  border: 2px solid #b89fd8;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content {
+  text-align: center;
+  width: 60%;
+}
+
+.banner-content * {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 span {
+  color: rgb(235, 18, 54);
+}
+
+p {
+  font-weight: lighter;
+}
+
+/* Buttons */
+.btn, .btnn {
+  padding: 16px 32px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: rgb(129, 4, 129);
+  color: white;
+}
+
+.btnn {
+  background-color: white;
+  color: black;
+}
+
+/* Banner Image */
+.banner-img {
+  width: 600px;
+}
+
+/* Services Section */
+.service-container {
+  width: 87.5%;
+  margin: 0 auto;
+}
+
+.heading-content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h4 {
+  color: rgb(235, 18, 54);
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.service-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+  width: 350px;
 }
