@@ -1,49 +1,17 @@
 /* General Styles */
-body {
-  min-height: 100vh;
-  background-color: #6608e0;
-}
-
-.body-style {
-  /* background-color: #6608e0; */
-  background: linear-gradient(150deg,#856da5 , #b3a9c0);
-}
-
 * {
-  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
-/* Banner Section */
-/* .banner-containers {
-  
-} */
-
-.banner {
-  background-image: url("assests/hero-bg.png");
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 87.5%;
-  margin: 100px auto 120px auto;
-  padding: 20px 10px;
-  border: 2px solid #b89fd8;
-  border-radius: 40px;
-  background-size: cover;
-  background-position: center;
+body {
+  min-height: 100vh;
+  background: linear-gradient(150deg, #856da5, #b3a9c0);
 }
 
-.banner-content {
-  text-align: center;
-  width: 60%;
-}
-
-.banner-content * {
-  margin-bottom: 10px;
-}
-
+/* Headings */
 h1 {
   font-size: 70px;
   font-weight: bold;
@@ -54,16 +22,41 @@ h1 span {
   color: rgb(235, 18, 54);
 }
 
+h2 {
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(235, 18, 54);
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 p {
   font-weight: lighter;
 }
 
 /* Buttons */
-.btn, .btnn {
+.btn,
+.btn-secondary {
   padding: 16px 32px;
   border-radius: 10px;
   cursor: pointer;
-  font-weight: bolder;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
   margin-right: 10px;
 }
 
@@ -72,12 +65,42 @@ p {
   color: white;
 }
 
-.btnn {
+.btn:hover {
+  background-color: #1b4f72;
+}
+
+.btn-secondary {
   background-color: white;
   color: black;
 }
 
-/* Banner Image */
+/* Banner Section */
+.banner-container {
+  max-width: 87.5%;
+  margin: 100px auto 120px auto;
+}
+
+.banner {
+  background-image: url("assests/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #b89fd8;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.banner-content {
+  width: 60%;
+  text-align: center;
+}
+
+.banner-content * {
+  margin-bottom: 10px;
+}
+
 .banner-img {
   width: 600px;
 }
@@ -91,19 +114,6 @@ p {
 .heading-content {
   text-align: center;
   margin-bottom: 40px;
-}
-
-h4 {
-  color: rgb(235, 18, 54);
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 44px;
-  font-weight: bold;
 }
 
 .service-content {
@@ -120,40 +130,27 @@ h2 {
   padding: 15px;
   width: 350px;
 }
-/* spot section */
-.spot-container{
-    margin: 100px auto 120px auto;
-  padding: 20px 10px;
-  border: 2px solid #b89fd8;
-  border-radius: 40px;
-    max-width: 87.5%;
+
+/* Spot Section */
+.spot-container {
+  width: 87.5%;
   margin: 100px auto 120px auto;
-
-
-}
-
-h4 {
-  color: rgb(235, 18, 54)
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-}
-
-h2 {
-  text-align: center;
-  margin-bottom: 30px;
+  padding: 20px 10px;
 }
 
 .spot-content {
   display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  border: 2px solid #b89fd8;
+  border-radius: 40px;
+  padding: 20px;
 }
 
-.spot-image, .spot-text {
+.spot-image,
+.spot-text {
   flex: 1 1 300px;
 }
 
@@ -161,12 +158,6 @@ h2 {
   width: 100%;
   border-radius: 15px;
   display: block;
-}
-
-.spot-text h3 {
-  margin-bottom: 10px;
-  font-size: 32px;
-  font-weight: bold;
 }
 
 .spot-text img {
@@ -177,21 +168,4 @@ h2 {
 .spot-text p {
   margin-bottom: 20px;
   font-size: 16px;
-  /* font-weight: bold; */
-  
-}
-
-.btn {
-  padding: 12px 25px;
-  font-size: 16px;
-  border-radius: 8px;
-  border: none;
-  background-color: rgb(129, 4, 129);
-  color: white;
-  cursor: pointer;
-  
-}
-
-.btn:hover {
-  background-color: #1b4f72;
 }
