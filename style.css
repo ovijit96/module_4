@@ -144,6 +144,7 @@ p {
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
+  background-color: white;
   border: 2px solid #b89fd8;
   border-radius: 40px;
   padding: 20px;
@@ -169,3 +170,56 @@ p {
   margin-bottom: 20px;
   font-size: 16px;
 }
+
+/* Countries Section */
+.country-container {
+  max-width: 87.5%;
+  margin: 100px auto 120px auto;
+  padding: 20px 10px;
+  border: 2px solid #b89fd8;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.country-container .heading-content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.country-container h4 {
+  color: rgb(235, 18, 54);
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.country-container h2 {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.country-container .service-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.country-container .service-card {
+  width: 250px;
+  height: 120px;
+  background-color: #f9f4fc;
+  border: 1px solid #d1bde4;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  
+}
+
+
